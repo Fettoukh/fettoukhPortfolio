@@ -6,7 +6,7 @@ export default class About extends Component {
       <div>
         <section className="colorlib-about" data-section="about">
         <div className="colorlib-narrow-content">
-            <div className="row">
+            <div className="row" >
             <div className="col-md-12">
                 <div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
                 <div className="col-md-12">

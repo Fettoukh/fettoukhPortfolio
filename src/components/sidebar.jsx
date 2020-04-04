@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import about from "../Images/about.jpg"
 
 export default class Sidebar extends Component {
   render() {
@@ -8,7 +9,7 @@ export default class Sidebar extends Component {
           <nav href="#navbar" className="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i /></nav>
           <aside id="colorlib-aside" className="border js-fullheight">
             <div className="text-center">
-              <div className="author-img" style={{backgroundImage: 'url(images/about.jpg)'}} />
+              <div className="author-img" style={{backgroundImage: `url(${about})`}} />
               <h1 id="colorlib-logo"><a href="index.html">Mohamed Amine Fettoukh</a></h1>
               <span className="email"><i className="icon-home"></i>Hay Al Alaouiyine Rue Sfakes N 50 Temara</span>
               <span className="email"><i className="icon-mail"></i> medamine.fettoukh@gmail.com</span>
@@ -30,7 +31,7 @@ export default class Sidebar extends Component {
             <nav id="colorlib-main-menu">
               <ul>
                 <li><a href="https://www.facebook.com/amine.fettoukh3" target="_blank" rel="noopener noreferrer"><i className="icon-facebook2" /></a></li>
-                <li><a href="" target="_blank" rel="noopener noreferrer"><i className="icon-twitter2" /></a></li>
+                {/* <li><a href="" target="_blank" rel="noopener noreferrer"><i className="icon-twitter2" /></a></li> */}
                 <li><a href="https://www.instagram.com/fettoukh.amine/?hl=fr" target="_blank" rel="noopener noreferrer"><i className="icon-instagram" /></a></li>
                 <li><a href="https://www.linkedin.com/in/mohamed-amine-fettoukh-839247167/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" /></a></li>
                 <li><a href="https://github.com/Fettoukh" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
