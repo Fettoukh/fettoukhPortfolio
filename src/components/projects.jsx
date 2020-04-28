@@ -59,7 +59,7 @@ export default class Projects extends Component {
 											<h3><a href="work.html">Snake Game</a></h3>
 											<span>React JS</span>
 											<p className="icon">
-												<span><a href="https://github.com/Fettoukh/Harmify" Target="_blank"><i className="icon-eye" /> Demo</a></span>
+												<span><a href="https://fettoukh.github.io/React_Snake_Game/" Target="_blank"><i className="icon-eye" /> Demo</a></span>
 												<span><a href="https://github.com/Fettoukh/Harmify" Target="_blank"><i className="icon-book" /> Code</a></span>
 											</p>
 										</div>
