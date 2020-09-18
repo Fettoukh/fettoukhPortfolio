@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import img_bg from "../Images/img_bg.jpg";
 import bg from "../Images/bg.jpg";
 
 export default class Introduction extends Component {
